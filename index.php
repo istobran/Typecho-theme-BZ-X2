@@ -26,22 +26,21 @@ $this->need('header.php');
 <div class="container">
 	<div class="row">
 
-		<div class="col-md-9">
+		<div class="col-md-8">
 		    <?php while($this->next()): ?>
-		    <div class="panel panel-default">
-			    <div class="panel-body">
-			        <h3 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h3>
-			        <div class="post-meta">
-			        	<span>作者：<a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a> | </span>
-			        	<span>时间：<?php $this->date('F j, Y'); ?> | </span>
-			        	<span>分类：<?php $this->category(','); ?> | </span>
-			        	<span>评论：<a href="<?php $this->permalink() ?>"><?php $this->commentsNum('%d 评论'); ?></a> </span>
-			        </div>
-			        <div class="post-content"><?php $this->content('Continue Reading...'); ?></div>
-			    </div>
-		    </div>
+				<article class="panel panel-default">
+					<div class="article-thumbnail">
+						<h3 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h3>
+						<p class="post-meta">
+							<?php $this->date('F j, Y'); ?>
+						</p>
+					</div>
+					<div class="panel-body">
+						<div class="post-content"><?php $this->content('<button class="btn btn-primary">继续阅读 <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>'); ?></div>
+					</div>
+				</article>
 		    <?php endwhile; ?>
-		    <?php $this->pageNav('<< 上一页', '下一页 >>'); ?>
+		    <?php $this->pageNav('<i class="fa fa-angle-double-left" aria-hidden="true"></i>', '<i class="fa fa-angle-double-right" aria-hidden="true"></i>'); ?>
 		</div>
 
 	<?php $this->need('sidebar.php'); ?>

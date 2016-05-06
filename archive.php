@@ -2,7 +2,7 @@
 
 <div class="container" id="main">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-8">
             <div class="alert alert-success">您正在查看: <?php $this->archiveTitle(array(
                 'category'  =>  _t(' %s 分类下的文章'),
                 'search'    =>  _t('包含关键字 %s 的文章'),

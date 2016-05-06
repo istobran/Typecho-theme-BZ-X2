@@ -16,12 +16,12 @@
         <link rel="Bootmark" href="<?php $this->options->siteIcon() ?>" />
         <?php endif; ?>
         <?php $this->header(); ?>
-				<link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet">
-				<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/normalize.min.css'); ?>">
+				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/material.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/ripples.css'); ?>">
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/custom.css'); ?>">
-				<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+				<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
 	</head>
 
 	<header>
@@ -82,7 +82,7 @@
 			      		<li><a href="<?php $this->options->adminUrl('login.php'); ?>">登录</a></li>
 			      	<?php endif; ?>
 			    </ul>
-                  <?php endif; ?>
+          <?php endif; ?>
 		  	</div>
 		</div>
 	</header>

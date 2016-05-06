@@ -1,12 +1,12 @@
 <?php
 
 /**
- * 这是HanSon 基于material 的Typecho模板
+ * 这是 Typecho 模板 theme-BZ 的第 2 版
  *
- * @package Material Theme
- * @author HanSon
+ * @package BangZ Typecho theme X 2
+ * @author BangZ
  * @version 2.0.0
- * @link http://hanc.cc
+ * @link http://bangz.me
  */
 
 $this->need('header.php');
@@ -46,4 +46,3 @@ $this->need('header.php');
 
 	<?php $this->need('sidebar.php'); ?>
 	<?php $this->need('footer.php'); ?>
-

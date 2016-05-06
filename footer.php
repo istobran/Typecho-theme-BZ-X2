@@ -11,7 +11,7 @@
 				<div class="pull-left copyright">Copyright &copy; 2015&nbsp;<?php $this->options->title(); ?></div>
 				<ul class="footer-nav pull-right">
 					<li>Powered by <a href="http://typecho.org/" rel="nofollow">Typecho)))</a></li>
-					<li>Optimized by <a href="http://hanc.cc">HanSon</a></li>
+					<li>Designed by <a href="http://bamgz.me">BangZ</a></li>
 
 					<?php if($this->options->miibeian) : ?>
 					<li><a href="http://www.miibeian.gov.cn" rel="nofollow"><?php echo $this->options->miibeian; ?></a></li>
@@ -26,8 +26,8 @@
 	</footer>
 
 	<?php $this->footer(); ?>
-	<script src="<?php $this->options->themeUrl('js/jquery-2.1.4.min.js'); ?>"></script>
-	<script src="<?php $this->options->themeUrl('js/bootstrap.min.js'); ?>"></script>
+	<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="<?php $this->options->themeUrl('js/material.min.js'); ?>"></script>
 	<script src="<?php $this->options->themeUrl('js/ripples.min.js'); ?>"></script>
 	<script>

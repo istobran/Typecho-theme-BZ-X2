@@ -16,12 +16,12 @@
         <link rel="Bootmark" href="<?php $this->options->siteIcon() ?>" />
         <?php endif; ?>
         <?php $this->header(); ?>
-				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/normalize.min.css'); ?>">
+				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/normalize.css'); ?>">
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/material.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/ripples.css'); ?>">
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/custom.css'); ?>">
-				<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
 	</head>
 
 	<header>

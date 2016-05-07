@@ -12,15 +12,22 @@
 $this->need('header.php');
 ?>
 <section class="billboard">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-7">
-				<div class="intro animate fadeIn">
-					<h1><?php $this->options->slogan() ?></h1>
-					<p class="lead"></p>
-				</div>
-			</div>
+	<div class="billboard-background">
+		<div class="loading-container">
+			<h2 class="loader"> </h2>
 		</div>
+	</div>
+	<div class="billboard-background-mask"></div>
+	<div class="billboard-container">
+		<div class="billboard-text">
+			<div class="billboard-text-border-top"></div>
+			<h1 class="blog-title"><?php $this->options->title()?></h1>
+			<h3 class="blog-description"><?php $this->options->description()?></h3>
+			<div class="billboard-text-border-bottom"></div>
+		</div>
+	</div>
+	<div class="billboard-footer">
+		<?php _e("Developed by ");?><a href="http://bangz.me" target="_blank"><?php _e("BangZ");?></a>
 	</div>
 </section>
 <div class="container">
@@ -39,7 +46,7 @@ $this->need('header.php');
 						</p>
 					</div>
 					<div class="panel-body">
-						<div class="post-content"><?php $this->content('<button class="btn btn-primary">继续阅读 <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>'); ?></div>
+						<div class="post-content index-content"><?php $this->content('<button class="btn btn-primary">继续阅读 <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>'); ?></div>
 					</div>
 				</article>
 		    <?php endwhile; ?>

@@ -47,12 +47,16 @@
         <p>TOP</p>
     </div>
 	</footer>
-
+	<div class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </div>
 	<?php $this->footer(); ?>
 	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/bootstrap.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/material.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/ripples.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php $this->options->themeUrl('js/text-autospace.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 	<script>
       $.material.init();
     </script>

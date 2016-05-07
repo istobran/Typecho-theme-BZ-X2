@@ -1,4 +1,19 @@
 <?php
+include_once "pangu.php";
+Typecho_Plugin::factory('Widget_Abstract_Contents')->content = array('Pangu', 'makeArticle');
+Typecho_Plugin::factory('Widget_Abstract_Contents')->excerpt = array('Pangu', 'makeArticle');
+
+class Pangu {
+	public static function makeArticle($content,$widget,$lastResult)
+	{
+		$content = empty($lastResult) ? $content : $lastResult;
+		if ($widget instanceof Widget_Archive) {
+      // 处理中英文之间的空格
+      $content = pangu($content);
+		}
+		return $content;
+	}
+}
 
 function themeConfig($form) {
     $slogan = new Typecho_Widget_Helper_Form_Element_Text('slogan', NULL, NULL, _t('首页图片标语文字'), _t('在这里文字，用于在首页中图片的文字显示'));
@@ -25,7 +40,7 @@ function timer_start() {
     return true;
 }
 timer_start();
- 
+
 function timer_stop( $display = 0, $precision = 3 ) {
     global $timestart, $timeend;
     $mtime = explode( ' ', microtime() );

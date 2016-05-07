@@ -30,9 +30,12 @@ $this->need('header.php');
 		    <?php while($this->next()): ?>
 				<article class="panel panel-default">
 					<div class="article-thumbnail">
+						<div class="post-cover" style="background-image:url(<?php $this->options->themeUrl("img/test-banner.png"); ?>);">
+							<a href="<?php $this->permalink() ?>"><div class="plus"><img src="<?php $this->options->themeUrl("img/icon-plus.png"); ?>" alt="icon-plus"></div></a>
+						</div>
 						<h3 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h3>
 						<p class="post-meta">
-							<?php $this->date('F j, Y'); ?>
+							<?php $this->date('M j, Y'); ?>
 						</p>
 					</div>
 					<div class="panel-body">

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN">
+<html lang="zh-CN" class="han-la">
 	<head>
 		<meta charset="<?php $this->options->charset(); ?>">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">

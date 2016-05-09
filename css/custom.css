@@ -260,6 +260,9 @@ article > .panel-body {
 .post-content.index-content {
 	color: #999;
 }
+.post-content img {
+  max-width:650px;
+}
 p.more {
 	text-align: right;
 }

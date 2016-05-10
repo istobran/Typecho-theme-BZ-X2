@@ -2,7 +2,6 @@
 
 <div class="container" id="main">
     <div class="row">
-
         <div class="col-md-8">
             <div class="panel panel-default">
                 <div class="post-thumbnail">

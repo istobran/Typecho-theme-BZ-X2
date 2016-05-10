@@ -22,7 +22,7 @@
         </div>
         <?php if ($comments->children): ?>
           <div class="comment-children">
-            <?php $comments->threadedComments($comments, Typecho_Widget::widget('Widget_Options')); ?>
+            <?php //$comments->threadedComments($comments, Typecho_Widget::widget('Widget_Options')); ?>
           </div>
         <?php endif; ?>
       </li>

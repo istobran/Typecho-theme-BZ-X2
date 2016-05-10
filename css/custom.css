@@ -68,10 +68,13 @@ footer {
 	background-color:#fff;
   color:#777;
   font-weight: bold;
-  padding: 0 15px;
+	padding-right: 15px;
 }
 .navbar .navbar-nav > li.site-logo > a {
-  padding: 10px 20px 10px 0;
+  padding: 10px 20px 10px;
+}
+.navbar .navbar-brand {
+	height: auto;
 }
 .billboard {
   position: relative;
@@ -617,6 +620,154 @@ div.comment-content:before {
 }
 .comment-current-user {
 	margin: 20px 20px 0px;
+}
+#ds-thread {
+	background: #ffffff;
+	padding: 30px;
+}
+#ds-thread #ds-reset .ds-highlight, #ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:active, #ds-thread #ds-reset a.ds-comment-context, #ds-thread #ds-reset #ds-bubble a:hover, #ds-thread #ds-reset #ds-bubble a {
+	color: #f5bb00 !important;
+}
+#ds-reset .ds-avatar img {
+	box-shadow: none !important;
+	border-radius: 50% !important;
+	-webkit-border-radius: 50% !important;
+}
+#ds-reset .ds-post .ds-avatar img {
+	width: 80px;
+	height: 80px;
+}
+#ds-reset .ds-replybox .ds-avatar img {
+	width: 80px !important;
+ 	height: 80px !important;
+}
+#ds-thread #ds-reset .ds-post .ds-comment-body {
+	padding-left: 100px;
+}
+#ds-thread #ds-reset .ds-post .ds-comment-body p {
+	position: relative;
+	padding: 15px;
+	background-color: #f4f4f4;
+	color: #666;
+	font-style: italic;
+}
+#ds-thread #ds-reset .ds-post .ds-comment-body p:hover {
+	color: #333;
+}
+#ds-thread #ds-reset .ds-post .ds-comment-body p:before {
+	position: absolute;
+	top: 15px;
+	left: -10px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #f4f4f4 transparent transparent;
+}
+#ds-thread #ds-reset .ds-replybox {
+	padding-left: 100px !important;
+}
+#ds-thread #ds-reset .ds-replybox .ds-textarea-wrapper {
+	border: none;
+	background: #f4f4f4;
+	overflow: visible;
+}
+#ds-thread #ds-reset .ds-replybox .ds-textarea-wrapper:before {
+	position: absolute;
+	top: 35px;
+	left: -10px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #f4f4f4 transparent transparent;
+}
+#ds-thread #ds-reset .ds-replybox .ds-post-options {
+	border: none;
+	background: #f4f4f4;
+	border-radius: 0;
+}
+#ds-thread #ds-reset .ds-replybox .ds-post-button {
+	border: none;
+	background: #fea958;
+	color: #fff;
+	border-radius: 3px;
+	height: 30px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",arial,sans-serif;
+	text-shadow: none;
+	transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+}
+#ds-thread #ds-reset .ds-replybox .ds-post-button:hover {
+	background: #f0ad4e;
+	border-radius: 3px;
+	color: #fff;
+}
+#ds-reset .ds-avatar img , #ds-thread #ds-reset ul.ds-children .ds-avatar img {
+	-webkit-transition: .9s ease;
+	-moz-transition: .9s ease;
+	-o-transition: .9s ease;
+	-ms-transition: .9s ease;
+	transition: .9s ease;
+}
+/*鼠标悬停旋转头像*/
+.ds-post:hover .ds-avatar img {
+	transform:rotate(720deg);
+	-webkit-transform:rotate(720deg);
+	-moz-transform:rotate(720deg);
+	-o-transform:rotate(720deg);
+	-ms-transform:rotate(720deg);
+}
+#ds-reset .ds-avatar img:hover{
+	transform:rotate(720deg);
+	-webkit-transform:rotate(720deg);
+	-moz-transform:rotate(720deg);
+	-o-transform:rotate(720deg);
+	-ms-transform:rotate(720deg);
+}
+#ds-thread #ds-reset .ds-post-toolbar span.ds-sync {
+	display: none;
+}
+#ds-thread #ds-reset .ds-meta {
+	border-bottom: 1px solid #f4f4f4 !important;
+}
+#ds-thread #ds-reset.ds-no-opacity .ds-comments, #ds-thread #ds-reset.ds-no-opacity .ds-paginator {
+	border-bottom: 1px solid #f4f4f4 !important;
+}
+#ds-thread #ds-reset.ds-no-opacity .ds-comments li.ds-post {
+	border-top: 1px solid #f4f4f4 !important;
+}
+.ds-meta {
+  opacity: .5;
+}
+.ds-meta:hover {
+  opacity: 1;
+}
+#ds-thread #ds-reset a.ds-like-thread-button {
+  background-image: none;
+  background-color: #fee2d3;
+  border: none;
+  text-shadow: none;
+  font-family: inherit;
+}
+#ds-thread #ds-reset .ds-toolbar .ds-account-control ul {
+	border: none;
+	border-radius: 0;
+}
+#ds-thread #ds-reset .ds-toolbar .ds-account-control ul li a {
+	border-top: none;
+	border-bottom: none;
+	padding: 8px 10px;
+	text-shadow: none;
+}
+#ds-thread #ds-reset .ds-toolbar .ds-visitor {
+	margin-right: 10px;
 }
 #logo {
 	display:none

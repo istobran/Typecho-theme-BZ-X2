@@ -1,10 +1,3 @@
-
-	<!--
-	<script src="//cdn.bootcss.com/bootstrap-material-design/0.3.0/js/material.min.js"></script>
-	<script src="//cdn.bootcss.com/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
-	-->
-	</div>
-	</div>
 	<footer>
 		<div class="footer-bottom">
 			<div class="container">
@@ -27,7 +20,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<footer class="footer-toolbar">
 		<div class="footer-back-top back-top btn">
         <i class="fa fa-chevron-up"></i>
@@ -43,7 +35,7 @@
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/ripples.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/text-autospace.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
-	<script>
+	<script type="text/javascript">
       $.material.init();
   </script>
 	<?php $this->footer(); ?>

@@ -35,3 +35,13 @@ function themeConfig($form) {
     array('ShowLogin'), _t('杂项'));
     $form->addInput($misc->multiMode());
 }
+
+function themeCDN($resource)
+{
+	$options = Typecho_Widget::widget('Widget_Options');
+	if (!isset($options->cdnurl)) {
+		_e($options->themeUrl($resource));
+	} else {
+		_e($options->cdnurl().$resource);
+	}
+}

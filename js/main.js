@@ -25,7 +25,7 @@ $(".billboard-container").hide();
 $(".blog-title").addClass("easeOuts");
 $(".blog-description").addClass("easeOuts");
 var bg_image = new Image();
-bg_image.src = "http://static.bangz.me/bg01.png";
+bg_image.src = "http://static.bangz.me/img/bg01.png";
 bg_image.onload = function() {
   $(".loading-container").remove();
   $('.billboard-background').hide();

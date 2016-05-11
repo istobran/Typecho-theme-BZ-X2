@@ -1,4 +1,4 @@
-<div class="col-md-4 sidebar">
+<aside class="col-md-4 sidebar">
 	<div class="widget widget-info">
 	    <a class="widget-heading" onclick="$('.recent_posts_box').slideToggle()" href="javascript:;">
 	        <h3 class="widget-title">最新文章</h3>
@@ -56,4 +56,4 @@
 	       <a href="<?php $this->options->commentsFeedUrl(); ?>" class="item"><?php _e('评论 RSS'); ?></a>
 	    </div>
 	</div>
-</div>
+</aside>

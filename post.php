@@ -5,7 +5,7 @@
         <div class="col-md-8">
             <div class="panel panel-default">
                 <div class="post-thumbnail">
-                  <div class="post-cover" style="background-image:url(<?php $this->options->themeUrl("img/test-banner.png"); ?>);"></div>
+                  <div class="post-cover" style="background-image:url('<?php ArticleImg_Plugin::render($this->thumb); ?>');"></div>
                 </div>
                 <div class="panel-body content-inner">
                     <div class="post-content-header">
@@ -41,4 +41,6 @@
         </div>
 
     <?php $this->need('sidebar.php'); ?>
-    <?php $this->need('footer.php'); ?>
+  </div>
+</div>
+<?php $this->need('footer.php'); ?>

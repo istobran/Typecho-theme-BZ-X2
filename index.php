@@ -36,7 +36,7 @@ $this->need('header.php');
 			    <?php while($this->next()): ?>
 					<article class="panel panel-default">
 						<div class="article-thumbnail">
-							<div class="post-cover" style="background-image:url(<?php $this->options->themeUrl("img/test-banner.png"); ?>);">
+							<div class="post-cover" style="background-image:url('<?php ArticleImg_Plugin::render($this->thumb); ?>');">
 								<a href="<?php $this->permalink() ?>"><div class="plus"><img src="<?php $this->options->themeUrl("img/icon-plus.png"); ?>" alt="icon-plus"></div></a>
 							</div>
 							<h3 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h3>
@@ -52,6 +52,6 @@ $this->need('header.php');
 			    <?php $this->pageNav('<i class="fa fa-angle-double-left" aria-hidden="true"></i>', '<i class="fa fa-angle-double-right" aria-hidden="true"></i>'); ?>
 			</div>
 		<?php $this->need('sidebar.php'); ?>
-		<?php $this->need('footer.php'); ?>
-		</div>
 	</div>
+</div>
+<?php $this->need('footer.php'); ?>

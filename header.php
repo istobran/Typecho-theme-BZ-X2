@@ -23,6 +23,7 @@
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/custom.css'); ?>">
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
 	</head>
+	<body>
 	<header>
 		<div class="navbar navbar-fixed-top navbar-inverse">
 		  <div class="navbar-header">
@@ -64,8 +65,7 @@
 		      			<li
 								<?php if ($this->is('category', $category->slug)): ?>
 									class="active"
-								<?php endif; ?>
-							  style="<?php print_r($category->children) ?> ">
+								<?php endif; ?>>
 									<a href="<?php $category->permalink(); ?>" title="<?php $category->name(); ?>">
 										<?php $category->name(); ?>
 									</a>
@@ -81,16 +81,17 @@
 						</li>
 		      <?php endwhile; ?>
 		    </ul>
-		    <?php if ( !empty($this->options->misc) && in_array('ShowLogin', $this->options->misc) ) : ?>
-			    <ul class="nav navbar-nav navbar-right">
-			    	<?php if($this->user->hasLogin()): ?>
-			    		<li><a href="<?php $this->options->adminUrl(); ?>"><?php $this->user->screenName(); ?></a></li>
-			    		<li><a href="<?php $this->options->logoutUrl(); ?>">Logout</a></li>
-			    	<?php else: ?>
-			      	<li><a href="<?php $this->options->adminUrl('login.php'); ?>">登录</a></li>
-			      <?php endif; ?>
-			    </ul>
-		    <?php endif; ?>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<div class="search-form">
+							<form>
+								<div id="search-btn">
+								</div>
+								<input type="text" class="search-text" placeholder="输入需要查找的内容...">
+							</form>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</header>

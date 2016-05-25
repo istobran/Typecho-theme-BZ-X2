@@ -40,3 +40,12 @@ bg_image.onload = function() {
     });
   });
 };
+
+//搜索按钮效果
+$('#search-btn').click(function() {
+  if ($('.search-form').hasClass("toggle-search-form")) {
+    $('.search-form').removeClass("toggle-search-form");
+  } else {
+    $('.search-form').addClass("toggle-search-form");
+  }
+});

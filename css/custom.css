@@ -426,12 +426,73 @@ p.more {
 .page-navigator>li>a:hover {
 	color: #f5bb00;
 }
+.navbar-right {
+	padding: 15px;
+}
+.search-form {
+	position: relative;
+	width: 50px;
+	transition: width ease .2s;
+	-moz-transition: width ease .2s;
+	-webkit-transition: width ease .2s;
+	-o-transition: width ease .2s;
+}
+.toggle-search-form {
+	width: 320px;
+}
+.search-form .form-group {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.search-text {
+	background-color: #f4f4f4;
+	border-radius: 25px;
+	transition: background-color ease .15s,border-color ease .15s;
+	padding: 0 20px;
+	height: 50px;
+	width: 100%; /* 宽度自适应 */
+	line-height: 50px;
+	color: #777;
+	z-index: 2;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 0 0 0 transparent;
+	border-color: #f4f4f4;
+	box-sizing: border-box;
+}
+.search-text:focus {
+	border-color:#ececec;
+	background-color:#fff;
+}
 #search-btn {
-	padding:10px;
-	border-radius:25px;
-	height:32px;
-	width:32px;
-	font-size:14px
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	cursor: pointer;
+}
+#search-btn:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	font-family: FontAwesome;
+	text-rendering: auto;
+	content: "\f002";
+	line-height: 50px;
+	color: #999;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #f4f4f4;
+	z-index: 3;
+	transition: background-color ease .2s;
+}
+.toggle-search-form #search-btn:after {
+	background-color: transparent;
+	content: "\f00d";
+	z-index: 2;
 }
 .sidebar {
 	padding: 10px 20px;
@@ -524,6 +585,9 @@ footer .footer-bottom {
 }
 .social a:hover>i.fa-google-plus {
   color: #c0392b;
+}
+.feature a {
+	color: #aaa;
 }
 .footer-toolbar {
 	background-color: #f5bb00;
@@ -812,9 +876,9 @@ button.btn.btn-primary:focus, button.btn.btn-primary:active, button.btn.btn-prim
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {width: 8px; height:8px; }
+::-webkit-scrollbar {width: 8px; height:8px;}
 .content ::-webkit-scrollbar{height:5px;}
-::-webkit-scrollbar-thumb{background-color:#feb800 !important;}
+::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2) !important;}
 .nicescroll-rails div{border:0 !important;border-radius: 0 !important;}
 
 html.han-la hanla:after {

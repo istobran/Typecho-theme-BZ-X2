@@ -12,7 +12,7 @@
 				</div>
 				<div class="feature">
 					<span class="sitemap"><a href="<?php $this->options->siteUrl("sitemap.xml"); ?>">网站地图</a></span> |
-					<span class="backend"><a href="<?php $this->options->adminUrl(); ?>">进入后台</a></span> | 
+					<span class="backend"><a href="<?php $this->options->adminUrl(); ?>">进入后台</a></span> |
 					<span class="analyze"><a href="//analytics.google.com">站长统计</a></span> |
 					<span class="friends"><a href="#">友情链接</a></span> |
 					<span class="aboutme"><a href="#">关于博主</a></span>
@@ -36,11 +36,11 @@
 	<div class="back-to-top">
     <i class="fa fa-chevron-up"></i>
   </div>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('js/jquery-2.2.3.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('js/bootstrap.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('js/material.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('js/ripples.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('js/text-autospace.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/jquery-2.2.3.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/bootstrap.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/material.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/ripples.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/text-autospace.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 	<script type="text/javascript">
       $.material.init();

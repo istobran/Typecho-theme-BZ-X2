@@ -17,11 +17,11 @@
         <?php endif; ?>
         <?php $this->header(); ?>
 				<link rel="stylesheet" href="<?php themeCDN('css/normalize.min.css'); ?>">
-				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>">
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('css/material.css'); ?>">
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('css/ripples.css'); ?>">
+				<link rel="stylesheet" href="<?php themeCDN('css/bootstrap.min.css'); ?>">
+        <link rel="stylesheet" href="<?php themeCDN('css/material.min.css'); ?>">
+        <link rel="stylesheet" href="<?php themeCDN('css/ripples.min.css'); ?>">
 				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/custom.css'); ?>">
-				<link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
+				<link rel="stylesheet" href="<?php themeCDN('css/font-awesome.min.css'); ?>">
 	</head>
 	<body>
 	<header>
@@ -38,7 +38,7 @@
 			<div class="navbar-collapse collapse navbar-responsive-collapse">
 		    <ul class="nav navbar-nav">
 					<li class="site-logo">
-						<a class="navbar-brand" href="//bangz.me"><img src="<?php $this->options->themeUrl("img/logo-min.png"); ?>"></a>
+						<a class="navbar-brand" href="//bangz.me"><img src="<?php themeCDN("img/logo-min.png"); ?>"></a>
 					</li>
 		    	<li<?php if($this->is('index')): ?> class="active"<?php endif; ?>>
 						<a href="<?php $this->options->siteUrl(); ?>"><i class="fa fa-home" aria-hidden="true"></i> 首 页 </a>

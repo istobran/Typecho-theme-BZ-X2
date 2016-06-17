@@ -8,7 +8,7 @@
 
 <div class="container" id="main">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="panel panel-default">
               <div class="post-thumbnail">
                 <div class="post-cover" style="background-image:url('<?php ArticleImg_Plugin::render($this->thumb); ?>');"></div>
@@ -45,8 +45,7 @@
             </div>
             <?php $this->need('comments.duoshuo.php'); ?>
         </div>
-    <?php $this->need('sidebar.php'); ?>
-  </div>
+    </div>
 </div>
 <?php $this->need('footer.php'); ?>
 <?php } ?>

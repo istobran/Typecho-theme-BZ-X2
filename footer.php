@@ -14,8 +14,8 @@
 					<span class="sitemap"><a href="<?php $this->options->siteUrl("sitemap.xml"); ?>">网站地图</a></span> |
 					<span class="backend"><a href="<?php $this->options->adminUrl(); ?>">进入后台</a></span> |
 					<span class="analyze"><a href="//analytics.google.com">站长统计</a></span> |
-					<span class="friends"><a href="#">友情链接</a></span> |
-					<span class="aboutme"><a href="#">关于博主</a></span>
+					<span class="friends"><a href="<?php $this->options->siteUrl("friends.html"); ?>">友情链接</a></span> |
+					<span class="aboutme"><a href="<?php $this->options->siteUrl("aboutme.html"); ?>">关于博主</a></span>
 				</div>
 				<div class="social">
 					<a href="//github.com/istobran"><i class="fa fa-github"></i></a>
@@ -49,6 +49,9 @@
 
 	<!-- Google-Analytics -->
 	<?php include_once("analyticstracking.php") ?>
+
+	<!-- 百度推送 -->
+	<?php include_once("baidulinks.php") ?>
 
 	</body>
 </html>

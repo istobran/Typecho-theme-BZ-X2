@@ -524,6 +524,20 @@ p.more {
 .widget-content {
 	padding: 10px 0 30px;
 }
+.repo_logo {
+	opacity: 0.4;
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.code_repo > a:hover > .repo_logo {
+	opacity: 0.8;
+}
 .col-md-4 .widget .item {
 	position:relative;
 	display:block;
@@ -535,6 +549,11 @@ p.more {
 	text-overflow:ellipsis;
 	white-space:nowrap;
 	word-break:break-all
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 .col-md-4 .widget a.widget-heading {
 	display:block;

@@ -18,7 +18,7 @@ $this->need('header.php');
 			</div>
 		</div>
 		<div class="billboard-background-mask"></div>
-		<div class="billboard-container">
+		<div class="billboard-container" style="display:none;">
 			<div class="billboard-text">
 				<div class="billboard-text-border-top"></div>
 				<h1 class="blog-title"><?php $this->options->title()?></h1>

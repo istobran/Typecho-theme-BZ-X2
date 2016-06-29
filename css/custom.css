@@ -704,6 +704,76 @@ div.comment-content:before {
 .comment-current-user {
 	margin: 20px 20px 0px;
 }
+.about_me {
+	padding-top: 30px;
+}
+.about_me > .avatar {
+	width: 120px;
+	height: 120px;
+	background-color: #cecece;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto 15px;
+}
+.about_me > .avatar > img {
+	width: 100%;
+	height: auto;
+}
+.about_me > .blogger_name {
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+.about_me > .description {
+	margin: 0 auto;
+	padding: 10px 0 15px;
+	color: #999;
+	font-size: 16px;
+	text-align: center;
+}
+.about_me a {
+	color: black;
+	text-decoration: none;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.about_me a:hover {
+	color: #f5bb00;
+}
+.my_info {
+	border-top: 1px dashed #ececec;
+	padding-top: 15px;
+}
+.my_info ul {
+	padding: 0;
+}
+.my_info ul li {
+	list-style: none;
+}
+.my_info ul li dl {
+	font-size: 0;
+	padding: 5px 0;
+	margin: 0;
+}
+.my_info ul li dl dd {
+	font-size: 16px;
+	display: inline-block;
+}
+.my_info ul li dl > dd:nth-child(1) {
+	width: 10%;
+	text-align: center;
+}
+.my_info ul li dl > dd:nth-child(2) {
+	width: 35%;
+	color: #777;
+}
+.my_info ul li dl > dd:nth-child(3) {
+	width: 55%
+}
 #ds-thread {
 	background: #ffffff;
 	padding: 30px;

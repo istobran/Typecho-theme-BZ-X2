@@ -774,6 +774,124 @@ div.comment-content:before {
 .my_info ul li dl > dd:nth-child(3) {
 	width: 55%
 }
+.friends .post-content-title > h1 {
+	/* 友情链接主标题 居中 */
+	text-align: center;
+	font-size: 28px;
+}
+.friends .post-content-subtitle > h3 {
+	/* 友情链接副标题 居中 */
+	text-align: center;
+	color: #999;
+	font-size: 18px;
+	font-weight: normal;
+}
+.friends .spliter-container {
+	text-align: center;
+}
+.friends .spliter {
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.friends .spliter span {
+	display: inline-block;
+	color: #E0B764;
+}
+.friends .spliter .line {
+	width: 100px;
+	height: 1px;
+	background: #E0B764;
+	position: absolute;
+	top: 12px;
+}
+.friends .spliter .line.left {
+	right: 25px;
+}
+.friends .spliter .line.right {
+	left: 25px;
+}
+.friends .spliter .icon {
+	font-size: 18px;
+}
+.friends .post-content .row a {
+	display: block;
+	padding: 15px;
+}
+.friends .post-content .row .blog-icon {
+	width: 90px;
+	height: 90px;
+	position: relative;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.friends .post-content .row .blog-icon .icon-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 3px solid #000;
+	background: rgba(245, 187, 0, 0.4);
+	opacity: 0;
+	color: white;
+	font-size: 26px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 90px;
+	z-index: 5;
+	border-radius: 50%;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.friends .post-content .row .text-info {
+	height: 90px;
+	margin: 0 30px;
+}
+.friends .post-content .row .blog-icon img {
+	width: 100%;
+	height: auto;
+	border: 3px solid #000;
+}
+.friends .post-content .row .left .blog-icon {
+	margin-right: 70px;
+}
+.friends .post-content .row .right .blog-icon {
+	margin-left: 70px;
+}
+.friends .post-content .row .left > div {
+	float: right;
+}
+.friends .post-content .row .right > div {
+	float: left;
+}
+.friends .links-title {
+	margin: 0;
+	height: 100%;
+	line-height: 90px;
+	font-weight: normal;
+	font-family: "微软雅黑", "Microsoft YaHei", arial, sans-serif;
+	color: #999;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+/*.friends .post-content .row > a:hover .blog-icon {
+	border: 3px solid black;
+}*/
+.friends .post-content .row > a:hover .links-title {
+	color: #f5bb00;
+}
+.friends .post-content .row > a:hover .blog-icon .icon-cover {
+	opacity: 1;
+}
 #ds-thread {
 	background: #ffffff;
 	padding: 30px;

@@ -118,25 +118,4 @@
 				 <a href="<?php $this->options->commentsFeedUrl(); ?>" class="item"><?php _e('评论 RSS'); ?></a>
 			</div>
 	</div>
-
-	<!-- <div class="widget widget-info">
-	    <a class="widget-heading" onclick="$('.article_cate_box').slideToggle()" href="javascript:;">
-	        <h3 class="widget-title">归档</h3>
-	    </a>
-	    <div class="widget-content article_cate_box">
-	       <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
-	        ->parse('<a href="{permalink}" class="item">{date}</a>'); ?>
-	    </div>
-	</div> -->
-	<!-- <?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
-	<div class="widget widget-info">
-			<a class="widget-heading" onclick="$('.comments_box').slideToggle()" href="javascript:;">
-					<h3 class="widget-title">最新回复</h3>
-			</a>
-			<div class="widget-content comments_box">
-			<?php while($comments->next()): ?>
-					<a href="<?php $comments->permalink(); ?>" class="item"><?php $comments->author(false); ?>: <?php $comments->excerpt(30, '...'); ?></a>
-			<?php endwhile; ?>
-			</div>
-	</div> -->
 </aside>

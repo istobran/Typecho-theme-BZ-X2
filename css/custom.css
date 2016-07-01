@@ -892,6 +892,347 @@ div.comment-content:before {
 .friends .post-content .row > a:hover .blog-icon .icon-cover {
 	opacity: 1;
 }
+.aboutme .post-content-header {
+	padding: 70px 20px;
+}
+.aboutme .post-content-title {
+	text-align: center;
+	margin-bottom: 0;
+}
+.aboutme .post-content-title .line {
+	width: 120px;
+	display: inline-block;
+	border: 4px double #c2c2c2;
+	margin: 9px 10px;
+}
+.aboutme .post-content-title h1 {
+	display: inline-block;
+}
+.aboutme .basic .avatar {
+	width: 27%;
+}
+.aboutme .basic .avatar img {
+	border: 2px solid #f5bb00;
+	padding: 12px;
+	background: #fff;
+	max-width: 100%;
+}
+.aboutme ul {
+	margin: 0;
+	padding: 0;
+}
+.aboutme ul li {
+	list-style: none;
+	line-height: 3em;
+}
+.aboutme .basic {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 30px 0;
+	color: #fff;
+}
+.aboutme .basic h1 {
+	color: #f5bb00;
+	margin: 19px 0 20px;
+}
+.aboutme .basic .list-left, .aboutme .basic .list-right {
+	float: left;
+}
+.aboutme .basic .list-left {
+	width: 27%;
+	font-weight: bold;
+	color: #f5bb00;
+}
+.aboutme .basic .list-right {
+	width: 73%;
+}
+.aboutme .skills {
+	padding: 40px;
+	position: relative;
+}
+.aboutme .skills h4 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #666666;
+}
+.aboutme .skills .progress {
+	border: 1px solid #E0B764;
+}
+.aboutme .skills .progress .percentage {
+	background-color: #E0B764;
+}
+.aboutme .skills .logo {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+}
+.aboutme .skills .logo:before {
+	width: 10px;
+	height: 90%;
+}
+.aboutme .skills .logo:after {
+	width: 90%;
+	height: 10px;
+	margin-right: 10px;
+}
+.aboutme .skills .logo:before, .aboutme .skills .logo:after {
+	content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  background: rgba(200,200,200,0.51)
+}
+.aboutme .skills .logo .text {
+	position: absolute;
+	bottom: 45px;
+	right: 35px;
+	text-align: right;
+	font-size: 35px;
+	line-height: 50px;
+	color: #33373d;
+}
+.aboutme .skills .logo .text:after {
+	position: absolute;
+	content: '';
+	bottom: -10px;
+	right: 0;
+	width: 120%;
+	height: 4px;
+	background-color: #FFC815;
+}
+.aboutme .am_experience {
+	position: relative;
+	background-color: #f2f2f2;
+}
+.aboutme .am_experience .col-md-4 {
+	background-position: center;
+	background-repeat: repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background-color: grey;
+}
+.aboutme .am_experience .col-md-4 .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	z-index: 3;
+}
+.aboutme .am_experience .logo {
+	position: absolute;
+	top: 40px;
+	bottom: 40px;
+	left: 20px;
+	right: 0;
+	z-index: 5;
+}
+.aboutme .am_experience .logo:before {
+	width: 10px;
+	height: 95%;
+}
+.aboutme .am_experience .logo:after {
+	width: 85%;
+	height: 10px;
+	margin-left: 10px;
+}
+.aboutme .am_experience .logo:before, .aboutme .am_experience .logo:after {
+	content: '';
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index: 2;
+	background: rgba(255,255,255,0.51)
+}
+.aboutme .am_experience .logo .text {
+	position: absolute;
+	bottom: 45px;
+	left: 35px;
+	text-align: left;
+	font-size: 35px;
+	line-height: 50px;
+	color: rgba(255,255,255,0.91);
+}
+.aboutme .am_experience .logo .text:after {
+	position: absolute;
+	content: '';
+	bottom: -10px;
+	left: 0;
+	width: 120%;
+	height: 4px;
+	background-color: #FFC815;
+}
+.aboutme .am_experience .col-md-8 {
+	padding: 40px;
+}
+.aboutme .margTop {
+	margin-top: 60px !important;
+}
+.aboutme .timeline:after, .aboutme .exp:after {
+	border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.aboutme .timeline {
+  position: relative;
+}
+.aboutme .timeline:before {
+	background: #e0e0e0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e0e0e0 1%, #e0e0e0 75%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e0e0e0), color-stop(75%,#e0e0e0), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e0e0e0 1%,#e0e0e0 75%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  # 1%,#e0e0e0 75%,#e0e0e0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e0e0e0 1%,#e0e0e0 75%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e0e0e0 1%,#e0e0e0 75%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  bottom: 0;
+  content: "";
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+	height:100%;
+}
+.aboutme .timeline:after {
+	background: #f2f2f2;
+	border:3px solid #e2e2e2;
+	font-family: FontAwesome;
+	top:0;
+	left:-5px;
+	width:50px;
+	height:50px;
+	position: absolute;
+	text-align:center;
+	color:#333333;
+	font-size:20px;
+	line-height:45px;
+}
+.aboutme .timeline.experience:after {
+	content: "\f0b1";
+}
+.aboutme .exp{
+	padding-left: 50px;
+	padding-top: 20px;
+	position:relative;
+	margin-bottom:10px;
+}
+.aboutme .exp:after{
+ 	background: #cd5353;
+  border: 3px solid #f2f2f2;
+  content: "";
+  height: 15px;
+  left: 12px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 15px;
+}
+.aboutme .exp .hgroup h4, h6 {
+	margin-bottom:0;
+}
+.aboutme .exp .hgroup h4 {
+	text-transform:none;
+	font-family: SimHei, "黑体", STHeiti, "华文黑体", "Microsoft YaHei", Arial;
+}
+.aboutme .exp .hgroup{
+	margin-bottom:5px;
+}
+.aboutme .exp .hgroup h6 {
+	text-transform:none;
+	font-size:12px;
+	color:#666666;
+	font-style: italic;
+}
+.aboutme .exp .hgroup h6 i{
+	color:#cccccc;
+	margin-right:5px;
+}
+.aboutme .exp p {
+	color: #999999;
+}
+.aboutme .exp .hgroup h6 span.current{
+	color:#ffffff;
+	background: #cd5353;
+	border-radius:6px;
+	-moz-border-radius:6px
+	-webkit-border-radius :6px;
+	-ms-border-radius:6px;
+	-o-border-radius: 6px;
+	padding:1px 12px;
+}
+.aboutme .icon-container {
+	color: #E0B764;
+	position: relative;
+	border-radius: 50%;
+	font-size: 75px;
+	border:  2px solid #E0B764;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+.aboutme .icon-container i {
+	position: absolute;
+	margin: auto;
+	width: 75px;
+	height: 75px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+.aboutme .icon-container .icon-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0); /* IE 9 */
+	transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	z-index: 1;
+	background: #f2f2f2;
+}
+.aboutme .icon-container:hover .icon-cover {
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1); /* IE 9 */
+}
+.aboutme .contact .icon-subtitle {
+	margin-top: 35px;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+.aboutme .contact .description {
+	margin: 20px 0;
+	text-align: center;
+	color: #999999;
+}
+.aboutme .contact .col-md-4 {
+	padding: 100px 20px;
+}
 #ds-thread {
 	background: #ffffff;
 	padding: 30px;
@@ -1129,4 +1470,28 @@ html.han-la ul > hanla {
 .clearfix:after{clear:both;}
 .clearfix{
     *zoom:1;/*IE/7/6*/
+}
+.progress {
+	display: block;
+	height: 16px;
+	margin: 8px 0 14px;
+	position: relative;
+	width: 100%;
+	overflow: visible;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	background: #ffffff;
+}
+.progress .percentage {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	border-radius: 50px 0 0 50px;
+	-moz-border-radius: 50px 0 0 50px;
+	-webkit-border-radius: 50px 0 0 50px;
+	-ms-border-radius: 50px 0 0 50px;
+	-o-border-radius: 50px 0 0 50px;
 }

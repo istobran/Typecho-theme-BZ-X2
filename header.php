@@ -37,7 +37,7 @@
 		  </div>
 			<div class="navbar-collapse collapse navbar-responsive-collapse">
 		    <ul class="nav navbar-nav">
-					<li class="site-logo">
+					<li class="site-logo hidden-xs hidden-sm">
 						<a class="navbar-brand" href="//bangz.me"><img src="<?php themeCDN("img/logo-min.png"); ?>"></a>
 					</li>
 		    	<li<?php if($this->is('index')): ?> class="active"<?php endif; ?>>
@@ -84,10 +84,10 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<div class="search-form">
-							<form>
+							<form id="search" method="post" action="./" role="search">
 								<div id="search-btn">
 								</div>
-								<input type="text" class="search-text" placeholder="输入需要查找的内容...">
+								<input type="text" name="s" class="search-text" placeholder="输入需要查找的内容...">
 							</form>
 						</div>
 					</li>

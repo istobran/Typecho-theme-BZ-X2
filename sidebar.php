@@ -1,5 +1,4 @@
-<aside class="col-md-4 sidebar">
-
+<aside class="col-md-4 sidebar hidden-xs hidden-sm">
 	<div class="widget widget-info">
 		<a class="widget-heading" onclick="$('.about_me').slideToggle()" href="javascript:;">
 				<h3 class="widget-title">关于我</h3>

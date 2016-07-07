@@ -41,6 +41,7 @@
 	<script type="text/javascript" src="<?php themeCDN('js/material.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php themeCDN('js/ripples.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php themeCDN('js/text-autospace.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php themeCDN('js/jquery-qrcode-0.14.0.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 	<script type="text/javascript">
       $.material.init();

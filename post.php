@@ -26,13 +26,7 @@
                       <div class="tags">
                         <?php $this->tags(' ', true, ''); ?>
                       </div>
-                      <div class="socials">
-                        <a href="#fakelink"><i class="fa fa-facebook"></i></a>
-                        <a href="#fakelink"><i class="fa fa-twitter"></i></a>
-                        <a href="#fakelink"><i class="fa fa-pinterest-p"></i></a>
-                        <a href="#fakelink"><i class="fa fa-tumblr"></i></a>
-                        <a href="#fakelink"><i class="fa fa-google-plus"></i></a>
-                        <a href="#fakelink"><i class="fa fa-envelope"></i></a>
+                      <div class="socials" data-url="<?php $this->permalink(); ?>" data-title="<?php $this->title();?>" data-tsina="null">
                       </div>
                     </div>
                 </div>

@@ -368,6 +368,18 @@ p.more {
 .post-content-meta-bottom > .socials > a:hover {
 	color: #f5bb00;
 }
+.post-content-meta-bottom > .socials > .overlay {
+	display: none !important;
+}
+.post-content-meta-bottom > .socials > .hoverqrcode {
+	background: #fff;
+	border: 3px solid #EA9800;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	box-sizing: content-box;
+	position: absolute;
+}
 .panel-body.content-inner {
 	padding: 30px;
 }

@@ -28,19 +28,6 @@
                     </div>
                   </div>
                   <div class="post-content"><?php $this->content(); ?></div>
-                  <div class="post-content-meta-bottom clearfix">
-                    <div class="tags">
-                      <?php $this->tags(' ', true, ''); ?>
-                    </div>
-                    <div class="socials">
-                      <a href="#fakelink"><i class="fa fa-facebook"></i></a>
-                      <a href="#fakelink"><i class="fa fa-twitter"></i></a>
-                      <a href="#fakelink"><i class="fa fa-pinterest-p"></i></a>
-                      <a href="#fakelink"><i class="fa fa-tumblr"></i></a>
-                      <a href="#fakelink"><i class="fa fa-google-plus"></i></a>
-                      <a href="#fakelink"><i class="fa fa-envelope"></i></a>
-                    </div>
-                  </div>
               </div>
             </div>
             <?php $this->need('comments.duoshuo.php'); ?>

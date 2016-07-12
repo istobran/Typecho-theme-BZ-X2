@@ -78,7 +78,8 @@
     '<a class="overlay" id="qrcode"></a>',
     '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>',
     '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>',
-    '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-gplus" title="gplus"><i class="fa fa-google-plus"></i></a>',
+    '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-gplus" title="Google+"><i class="fa fa-google-plus"></i></a>',
+    '<a href="http://connect.qq.com/widget/shareqq/index.html?url=' + encodedUrl + '&title=' + title + '" class="article-share-qq" title="QQ" target="_blank"><i class="fa fa-qq"></i></a>',
     '<a href="#qrcode" class="article-share-qrcode" title="微信"><i class="fa fa-weixin" aria-hidden="true"></i></a>',
     '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"><i class="fa fa-renren" aria-hidden="true"></i></a>',
     '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"><i class="fa fa-weibo" aria-hidden="true"></i></a>'

@@ -24,7 +24,7 @@
                     <div class="post-content-meta">
                       <span class="post-content-author"><a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a></span>
                       <span class="post-content-date"><?php $this->date('M j, Y'); ?></span>
-                      <span class="post-content-like"><i class="fa fa-heart-o" aria-hidden="true"></i> 351</span>
+                      <span class="post-content-like"><i class="fa fa-heart-o" aria-hidden="true"></i> <?php $this->views(); ?></span>
                     </div>
                   </div>
                   <div class="post-content"><?php $this->content(); ?></div>

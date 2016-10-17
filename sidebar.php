@@ -1,7 +1,7 @@
 <aside class="col-md-4 sidebar hidden-xs hidden-sm">
 	<div class="widget widget-info">
 		<a class="widget-heading" onclick="$('.about_me').slideToggle()" href="javascript:;">
-				<h3 class="widget-title">关于我</h3>
+				<h3 class="widget-title">博主</h3>
 		</a>
 		<div class="widget-content about_me">
 			<div class="avatar">
@@ -11,53 +11,7 @@
 				BangZ
 			</div>
 			<div class="description">
-				一名执着于梦想的前端开发者
-			</div>
-			<div class="my_info">
-				<ul>
-					<li>
-						<dl class="position">
-							<dd><i class="fa fa-map-marker" aria-hidden="true"></i></dd>
-							<dd>位置</dd>
-							<dd>广东 广州</dd>
-						</dl>
-					</li>
-					<li>
-						<dl class="graduated">
-							<dd><i class="fa fa-university" aria-hidden="true"></i></dd>
-							<dd>毕业于</dd>
-							<dd>华南理工大学广州学院</dd>
-						</dl>
-					</li>
-					<li>
-						<dl class="birthday">
-							<dd><i class="fa fa-birthday-cake" aria-hidden="true"></i></dd>
-							<dd>生于</dd>
-							<dd>1994 年 8 月 12 日</dd>
-						</dl>
-					</li>
-					<li>
-						<dl class="major">
-							<dd><i class="fa fa-graduation-cap" aria-hidden="true"></i></dd>
-							<dd>所学专业</dd>
-							<dd>软件工程</dd>
-						</dl>
-					</li>
-					<li>
-						<dl class="orientation">
-							<dd><i class="fa fa-rocket" aria-hidden="true"></i></dd>
-							<dd>主攻方向</dd>
-							<dd>网站前端</dd>
-						</dl>
-					</li>
-					<li>
-						<dl class="email">
-							<dd><i class="fa fa-envelope" aria-hidden="true"></i></dd>
-							<dd>E-Mail</dd>
-							<dd><a href="mailto:i@bangz.me">i@bangz.me</a></dd>
-						</dl>
-					</li>
-				</ul>
+				A Front-End Developer
 			</div>
 		</div>
 	</div>
